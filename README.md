@@ -1,4 +1,4 @@
-Ticky Log Analysis
+# Ticky Log Analysis
 
 Process system logs (syslog.log) to generate error and user activity reports. Convert CSV reports to HTML for easy viewing in your browser.
 
@@ -8,7 +8,7 @@ Docker Desktop for Windows
 
 (Optional) Python 3.11+ if you want to run scripts locally
 
-Project Structure
+## Project Structure
 ticky-log-analysis/
 ```├─ data/         # Logs and CSVs
 │  └─ syslog.log
@@ -21,7 +21,7 @@ ticky-log-analysis/
 └─ README.md
 ```
 
-Run with Docker (Windows PowerShell)
+## Run with Docker (Windows PowerShell)
 
 Build the Docker image:
 
@@ -52,7 +52,7 @@ Open the HTML reports in your browser:
 start html\errors.html
 start html\users.html
 ```
-Run Locally (without Docker)
+## Run Locally (without Docker)
 
 If you have Python installed, you can also run everything locally:
 
