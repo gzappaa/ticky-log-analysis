@@ -1,0 +1,10 @@
+# ignore generated CSVs/HTMLs
+data/*.csv
+html/*.html
+
+# python cache
+__pycache__/
+*.pyc
+
+# vscode settings
+.vscode/
